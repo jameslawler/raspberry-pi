@@ -89,3 +89,17 @@ file { '/home/pi/scripts/mount/writeable.sh':
    mode => 0755,
    source => "puppet:///modules/scripts/writeable.sh",
 }
+
+file { '/home/pi/scripts/usb/mount.sh':
+   owner => 'pi',
+   group => 'pi',
+   mode => 0755,
+   source => "puppet:///modules/scripts/mount.sh",
+}
+
+file { '/home/pi/scripts/usb/umount.sh':
+   owner => 'pi',
+   group => 'pi',
+   mode => 0755,
+   source => "puppet:///modules/scripts/umount.sh",
+}
