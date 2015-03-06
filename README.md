@@ -1,4 +1,4 @@
-# Raspberry PI Headless Provisioning
+# Raspberry PI Read-Only Provisioning
 
 Configure a Raspberry Pi with the following features
 
@@ -9,7 +9,7 @@ Configure a Raspberry Pi with the following features
 
 ##  Install Wheezy Raspbian
 
-Source instructions (http://www.raspberrypi.org/documentation/installation/installing-images/linux.md)[http://www.raspberrypi.org/documentation/installation/installing-images/linux.md]
+Source instructions - http://www.raspberrypi.org/documentation/installation/installing-images/linux.md
 
 1. Download [Wheezy Raspbian](http://www.raspberrypi.org/downloads)
 1. Use `dd` to write the image to the SD card (make sure you're writing to the right disk!)
