@@ -80,26 +80,26 @@ file { '/home/pi/scripts/mount/readonly.sh':
    owner => 'pi',
    group => 'pi',
    mode => 0755,
-   source => "puppet:///modules/scripts/readonly.sh",
+   source => "puppet:///modules/scripts/filesystem/readonly.sh",
 }
 
 file { '/home/pi/scripts/mount/writeable.sh':
    owner => 'pi',
    group => 'pi',
    mode => 0755,
-   source => "puppet:///modules/scripts/writeable.sh",
+   source => "puppet:///modules/scripts/filesystem/writeable.sh",
 }
 
 file { '/home/pi/scripts/usb/mount.sh':
    owner => 'pi',
    group => 'pi',
    mode => 0755,
-   source => "puppet:///modules/scripts/mount.sh",
+   source => "puppet:///modules/scripts/usb/mount.sh",
 }
 
 file { '/home/pi/scripts/usb/umount.sh':
    owner => 'pi',
    group => 'pi',
    mode => 0755,
-   source => "puppet:///modules/scripts/umount.sh",
+   source => "puppet:///modules/scripts/usb/umount.sh",
 }
