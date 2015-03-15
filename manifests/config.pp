@@ -72,7 +72,7 @@ file { '/etc/minidlna.conf':
 
 # Scripts
 
-file { [ "/home/pi/scripts", "/home/pi/scripts/mount" ]:
+file { [ "/home/pi/scripts", "/home/pi/scripts/mount", "/home/pi/scripts/usb", "/home/pi/scripts/miniDLNA" ]:
     ensure => "directory",
 }
 
@@ -102,4 +102,11 @@ file { '/home/pi/scripts/usb/umount.sh':
    group => 'pi',
    mode => 0755,
    source => "puppet:///modules/scripts/usb/umount.sh",
+}
+
+file { '/home/pi/scripts/miniDLNA/reload.sh':
+   owner => 'pi',
+   group => 'pi',
+   mode => 0755,
+   source => "puppet:///modules/scripts/miniDLNA/reload.sh",
 }
