@@ -30,4 +30,4 @@ Beware: The fresh install scripts have not been test yet.
 ## To update raspberry pi:
 
     $ ssh pi@<ip of pi>
-    $ /etc/puppet/update.sh
+    $ ./raspberry-pi-puppet/update.sh
