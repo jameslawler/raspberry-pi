@@ -6,6 +6,7 @@ Configure a Raspberry Pi with the following features
 1. Mount USB external HDD
 1. Share folders via SAMBA
 1. Share media using MiniDLNA
+1. Mirror media folders
 
 ##  Install Wheezy Raspbian
 
