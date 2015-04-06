@@ -4,6 +4,7 @@
 sudo mount -o remount,rw /
 
 #Pull latest puppet script and provision
+cd ~/raspberry-pi-puppet/
 sudo git pull
 sudo puppet apply --modulepath ./modules manifests/config.pp --verbose --no-report
 
