@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo umount /media/HDD
+sudo umount -l /media/HDD
